@@ -4,10 +4,8 @@ import { Input } from '../ui/input';
 import {
     Dialog,
     DialogContent,
-    DialogDescription,
     DialogFooter,
     DialogHeader,
-    DialogTitle,
     DialogTrigger,
 } from "@/components/ui/dialog"
 
@@ -25,7 +23,7 @@ const Navbar = () => {
     return (
 
         <div>
-            <div className='flex items-center justify-between mx-16 p-4'>
+            <div className='flex items-center md:justify-between mx-16 p-4 flex-wrap justify-center gap-4'>
                 <div>
                     <img src='/navbar/logo.png' alt='logo' />
                 </div>
@@ -34,7 +32,7 @@ const Navbar = () => {
                     <form>
                         <div className='flex'>
                             <div>
-                                <Button variant="outline" className="rounded-l-full border-r-0 bg-[#F2F2F2]" size="icon">
+                                <Button variant="outline" className="rounded-l-full border-r-0 bg-[#F2F2F2] " size="icon">
                                     <img src='/navbar/searchIcon.png' alt='search icon' />
                                 </Button>
                             </div>

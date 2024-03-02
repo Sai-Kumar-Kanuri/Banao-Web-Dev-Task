@@ -5,10 +5,10 @@ import Home from "./pages/Home/Home"
 function App() {
 
   return (
-    <>
+    <div className="w-full">
       <Navbar />
       <Home />
-    </>
+    </div>
   )
 }
 

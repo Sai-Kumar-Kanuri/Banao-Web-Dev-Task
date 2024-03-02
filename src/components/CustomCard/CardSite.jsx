@@ -20,8 +20,8 @@ import {
 
 const CardSite = () => {
     return (
-        <div className='flex flex-col gap-4'>
-            <Card className="w-[692px] ">
+        <div className='flex flex-col md:gap-4'>
+            <Card className="w-full lg:w-[692px] ">
                 <CardHeader>
                     <img src="/home/card3.png" alt="card3" />
                     <CardDescription className="text-lg text-black font-semibold">🗓️ Meetup</CardDescription>
@@ -78,7 +78,7 @@ const CardSite = () => {
             </Card>
 
 
-            <Card className="w-[692px]">
+            <Card className="sm:w-full lg:w-[692px]">
                 <CardHeader>
                     {/* <img src="/home/card3.png" alt="card3" /> */}
                     <CardDescription className="text-lg text-black font-semibold">💼️ Job</CardDescription>

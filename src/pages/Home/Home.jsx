@@ -35,18 +35,18 @@ const Home = () => {
 
 
   return (
-    <div className='mb-20'>
-      <div className="bg-[url('/home/hero.png')] h-[440px] w-full bg-cover bg-no-repeat">
-        <div className='container mx-auto pt-[280px] pl-[200px]'>
+    <div className='mb-20 w-full'>
+      <div className="bg-[url('/home/hero.png')] h-[236px] md:h-[440px] w-full bg-cover bg-no-repeat">
+        <div className='container mx-auto pt-[140px] md:pt-[280px] md:pl-[200px]'>
           <h1 className='font-semibold text-white text-4xl'>Computer Engineering</h1>
           <span className='text-white text-lg'>142,765 Computer Engineers follow this</span>
         </div>
       </div>
 
       <NavbarHome />
-      <div className='flex justify-between'>
+      <div className='flex flex-col lg:flex-row lg:justify-between'>
 
-        <div className='flex flex-col gap-4 pl-[200px]'>
+        <div className='flex flex-col md:gap-4 md:p-4 xl:pl-[200px]'>
           <Card
             title="What if famous brands had regular fonts? Meet RegulaBrands!"
             header="✍️ Article"
@@ -71,7 +71,7 @@ const Home = () => {
         </div>
 
 
-        <div className='pr-[200px] w-1/3'>
+        <div className='px-4 xl:pr-[200px] lg:w-1/3'>
 
           {location ? (
             <div className='flex gap-8 items-center'>

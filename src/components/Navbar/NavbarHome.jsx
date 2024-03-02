@@ -7,7 +7,7 @@ const NavbarHome = () => {
 
   return (
     <div>
-      <nav className="space-x-4 w-full h-16 bg-white bg-opacity-50 backdrop-blur-md flex items-center justify-between px-52">
+      <nav className="hidden md:flex gap-4 w-full h-16 bg-white bg-opacity-50 backdrop-blur-md items-center justify-between md:px-52">
         <div className='flex items-center justify-between gap-4'>
           <a href="#">All Posts(32)</a>
           <a href="#"> Article </a>

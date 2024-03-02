@@ -6,7 +6,7 @@ import { Button } from '../ui/button';
 
 const Card = ({ title, header, description, authorName, authorImage, views, imageUrl }) => {
     return (
-        <BaseCard className="w-[692px]">
+        <BaseCard className="w-full lg:w-[692px]">
             <CardHeader>
                 <img src={imageUrl} alt={title} />
                 <CardDescription className="text-lg">{header}</CardDescription>
