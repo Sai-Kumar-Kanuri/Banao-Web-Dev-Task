@@ -25,7 +25,7 @@ const CardSite = () => {
                 <CardHeader>
                     <img src="/home/card3.png" alt="card3" />
                     <CardDescription className="text-lg text-black font-semibold">🗓️ Meetup</CardDescription>
-                    <CardDescription className="text-black font-semibold">
+                    <div className="text-black font-semibold">
                         <div className='flex items-center gap-8'>
                             <div className='flex gap-2'>
                                 <img src='/home/calender.png' alt='calender' />
@@ -37,7 +37,7 @@ const CardSite = () => {
                             </div>
                         </div>
 
-                    </CardDescription>
+                    </div>
                     <div className='flex justify-between items-center'>
                         <CardTitle>Finance & Investment Elite Social Mixer @Lujiazui</CardTitle>
                         {/* <div className='cursor-pointer'><MoreHorizontal /></div> */}
@@ -94,7 +94,7 @@ const CardSite = () => {
                             </DropdownMenuContent>
                         </DropdownMenu>
                     </div>
-                    <CardDescription className="text-black font-semibold">
+                    <div className="text-black font-semibold">
                         <div className='flex items-center gap-8'>
                             <div className='flex gap-2'>
                                 <img src='/home/case.png' alt='calender' />
@@ -106,7 +106,7 @@ const CardSite = () => {
                             </div>
                         </div>
 
-                    </CardDescription>
+                    </div>
 
                 </CardHeader>
 

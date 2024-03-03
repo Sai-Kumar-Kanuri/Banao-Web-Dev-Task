@@ -59,39 +59,33 @@ const NavbarHome = () => {
           <div>
             <NavigationMenuList>
               <NavigationMenuItem>
-                <a href="#">
-                  <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                    All Posts(32)
-                  </NavigationMenuLink>
-                </a>
+
+                <NavigationMenuLink href='#' className={navigationMenuTriggerStyle()}>
+                  All Posts(32)
+                </NavigationMenuLink>
+
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <a href="#">
-                  <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                    Article
-                  </NavigationMenuLink>
-                </a>
+
+                <NavigationMenuLink href='#' className={navigationMenuTriggerStyle()}>
+                  Article
+                </NavigationMenuLink>
+
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <a href="#">
-                  <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                    Event
-                  </NavigationMenuLink>
-                </a>
+                <NavigationMenuLink href='#' className={navigationMenuTriggerStyle()}>
+                  Event
+                </NavigationMenuLink>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <a href="#">
-                  <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                    Education
-                  </NavigationMenuLink>
-                </a>
+                <NavigationMenuLink href='#' className={navigationMenuTriggerStyle()}>
+                  Education
+                </NavigationMenuLink>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <a href="#">
-                  <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                    Job
-                  </NavigationMenuLink>
-                </a>
+                <NavigationMenuLink href='#' className={navigationMenuTriggerStyle()}>
+                  Job
+                </NavigationMenuLink>
               </NavigationMenuItem>
 
             </NavigationMenuList>
@@ -100,7 +94,7 @@ const NavbarHome = () => {
           <div className='flex gap-2'>
             <Menubar className="bg-[#EDEEF0] hover:bg-[#EDEEF0]" >
               <MenubarMenu>
-                <MenubarTrigger className="flex items-center justify-center"><p>WritePost</p>  <img src='/home/arrow.png' alt='arrow' className='mx-auto px-2' /></MenubarTrigger>
+                <MenubarTrigger className="flex items-center justify-center cursor-pointer"><p>WritePost</p>  <img src='/home/arrow.png' alt='arrow' className='mx-auto px-2' /></MenubarTrigger>
               </MenubarMenu>
             </Menubar>
 
@@ -120,6 +114,10 @@ const NavbarHome = () => {
 
 
       </NavigationMenu>
+
+      <div className='my-2'>
+        <hr className='h-px my-4 bg-gray-200 border-0 dark:bg-gray-700' />
+      </div>
 
 
     </div>
