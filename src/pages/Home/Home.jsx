@@ -36,10 +36,10 @@ const Home = () => {
 
   return (
     <div className='mb-20 w-full'>
-      <div className="bg-[url('/home/hero.png')] h-[236px] md:h-[440px] w-full bg-cover bg-no-repeat">
-        <div className='container mx-auto pt-[140px] md:pt-[280px] md:pl-[200px]'>
-          <h1 className='font-semibold text-white text-4xl'>Computer Engineering</h1>
-          <span className='text-white text-lg'>142,765 Computer Engineers follow this</span>
+      <div className="bg-[url('/home/hero.png')] h-3/4 md:h-[440px] w-full bg-cover bg-no-repeat">
+        <div className='container mx-auto pt-[100px] pb-[48px] md:pt-[280px] md:pl-[200px]'>
+          <h1 className='font-semibold text-white text-xl md:text-4xl'>Computer Engineering</h1>
+          <span className='text-white text-sm md:text-lg'>142,765 Computer Engineers follow this</span>
         </div>
       </div>
 
